@@ -1,6 +1,7 @@
 # Exercise_4
-Exercício 4
+Exercício 4 / Exercise 4
 
+//PT
 O exercício foi dividido em 3 partes.
 
 Primeira parte --> Identificar a posição do elemento comum.
@@ -9,20 +10,49 @@ Terceira Parte --> Definir se com a quantidade de operações é possível reali
 
 Obs.: Mais detalhes estão descritos no código.
 
-Exercício 5
+//EN
+The exercise was divided into 3 parts.
 
+First part --> Identify the position of the common element.
+Second Part --> Calculate the minimum necessary operations based on the removal and subsequent insertion of data.
+Third Part --> Define whether with the number of operations it is possible to convert strings.
+
+Note: More details are described in the code.
+
+Exercício 5 / Exercise 5
+
+//PT
+Testes Unitários
 Passo 1 --> Rodar o programa do exercício 4 com os seguintes valores:
 
-    canConvert("blablablabla", "blablabcde", 8); //Valor Esperado: "yes"
-    canConvert("tab", "tab", 7); //Valor Esperado: "yes"
-    canConvert("abc", "def", 6); //Valor Esperado: "yes"
-    canConvert("abc", "def", 5); //Valor Esperado: "no"
-    canConvert("a", "ab", 2); //Valor Esperado: "no"
-    canConvert("abc", "abc", 0); //Valor Esperado: "yes"
+    ConcatRemove("blablablabla", "blablabcde", 8); //Valor Esperado: "yes"
+    ConcatRemove("tab", "tab", 7); //Valor Esperado: "yes"
+    ConcatRemove("abc", "def", 6); //Valor Esperado: "yes"
+    ConcatRemove("abc", "def", 5); //Valor Esperado: "no"
+    ConcatRemove("a", "ab", 2); //Valor Esperado: "no"
+    ConcatRemove("abc", "abc", 0); //Valor Esperado: "yes"
     
-    canConvert("", "", 0); //Valor Esperado: "yes"
-    canConvert("", "abc", 3); //Valor Esperado: "yes"
-    canConvert("abc", "", 3); //Valor Esperado: "yes"
-    canConvert("abc", "abcd", 100); //Valor Esperado: "yes"
-    canConvert("abc", "abcd", 1); //Valor Esperado: "yes"
-    canConvert("abc", "xyz", 50); //Valor Esperado: "yes"
+    ConcatRemove("", "", 0); //Valor Esperado: "yes"
+    ConcatRemove("", "abc", 3); //Valor Esperado: "yes"
+    ConcatRemove("abc", "", 3); //Valor Esperado: "yes"
+    ConcatRemove("abc", "abcd", 100); //Valor Esperado: "yes"
+    ConcatRemove("abc", "abcd", 1); //Valor Esperado: "yes"
+    ConcatRemove("abc", "xyz", 50); //Valor Esperado: "yes"
+
+//EN
+Unit Tests
+Step 1 --> Run the exercise 4 program with the following values:
+
+    ConcatRemove("blablablabla", "blablabcde", 8); //Expected Value: "yes"
+    ConcatRemove("tab", "tab", 7); //Expected Value: "yes"
+    ConcatRemove("abc", "def", 6); //Expected Value: "yes"
+    ConcatRemove("abc", "def", 5); //Expected Value: "no"
+    ConcatRemove("a", "ab", 2); //Expected Value: "no"
+    ConcatRemove("abc", "abc", 0); //Expected Value: "yes"
+    
+    ConcatRemove("", "", 0); //Expected Value: "yes"
+    ConcatRemove("", "abc", 3); //Expected Value: "yes"
+    ConcatRemove("abc", "", 3); //Expected Value: "yes"
+    ConcatRemove("abc", "abcd", 100); //Expected Value: "yes"
+    ConcatRemove("abc", "abcd", 1); //Expected Value: "yes"
+    ConcatRemove("abc", "xyz", 50); //Expected Value: "yes"
