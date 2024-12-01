@@ -10,6 +10,8 @@ Terceira Parte --> Definir se com a quantidade de operações é possível reali
 
 Obs.: Mais detalhes estão descritos no código.
 
+Teste: Copiar e colar o código do exercício 4 no https://onlinegdb.com/ e executar. Verificar se a saída está de acordo com o que foi solicitado.
+
 //EN
 The exercise was divided into 3 parts.
 
@@ -18,6 +20,8 @@ Second Part --> Calculate the minimum necessary operations based on the removal 
 Third Part --> Define whether with the number of operations it is possible to convert strings.
 
 Note: More details are described in the code.
+
+Test: Copy and paste the code from exercise 4 at https://onlinegdb.com/ and run. Check whether the output is in accordance with what was requested.
 
 Exercício 5 / Exercise 5
 
