@@ -27,7 +27,7 @@ Exercício 5 / Exercise 5
 
 //PT
 Testes Unitários
-Passo 1 --> Rodar o programa do exercício 4 com os seguintes valores:
+Passo 1 --> Rodar o programa do exercício 4 no https://onlinegdb.com/ com os seguintes valores:
 
     ConcatRemove("blablablabla", "blablabcde", 8); //Valor Esperado: "yes"
     ConcatRemove("tab", "tab", 7); //Valor Esperado: "yes"
@@ -45,7 +45,7 @@ Passo 1 --> Rodar o programa do exercício 4 com os seguintes valores:
 
 //EN
 Unit Tests
-Step 1 --> Run the exercise 4 program with the following values:
+Step 1 --> Run the exercise 4 at https://onlinegdb.com/ program with the following values:
 
     ConcatRemove("blablablabla", "blablabcde", 8); //Expected Value: "yes"
     ConcatRemove("tab", "tab", 7); //Expected Value: "yes"
